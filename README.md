@@ -6,4 +6,19 @@ In the basic Minority Game, an odd number N of agents compete in successive roun
 Project still in development.
 
 ## Material
-mygame_functions.py : Basic program where all necessary functions are defined. The last function performs the game in the specific case of having 2 strategies, with changes of variable the computational time needed to do simulations are more than 3 times less than in the other functions.
+ - **mygame_functions.py** : Basic program where all necessary functions are defined. The last function performs the game in the specific case of having 2 strategies, with changes of variable the computational time needed to do simulations are more than 3 times less than in the other functions.
+
+ - **.ipynb** and **.py** files to gather statistics and obtain results and figures
+ - **some figures**
+
+
+
+## Tasks
+
+- [x] Basic naming game; volatility, phase transition, polarization, frozen agents and predictability.
+- [x] Basic naming game with change of variables; speeded up.
+- [x] Check the good convergence of the simulation in order to take good statistics.
+- [ ] Analytical calculations to check numerical ones.
+- [ ] Modeling market mechanism with minority game: Speculators and Producers, Noise traders, Quitters, multiple strategies, spies.
+- [ ] Creative part: Network topology exploration, spreading of ideas and attitudes.
+
