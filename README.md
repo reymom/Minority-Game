@@ -6,10 +6,11 @@ In the basic Minority Game, an odd number N of agents compete in successive roun
 Project still in development.
 
 ## Material
- - **mygame_functions.py** : Basic program where all necessary functions are defined. The last function performs the game in the specific case of having 2 strategies, with changes of variable the computational time needed to do simulations are more than 3 times less than in the other functions.
+ - **mygame_functions.py** : Basic program where all necessary functions for the first part are defined. Two main groups of functions are defined, one for the basic analysis of the MG, with different functions in order to extract different kind of results. The second group includes modifications in order to study basic mechanisms in market dynamics, such as having different kinds of agents (producers and speculators) and the inclusion of privileged agents.
+ - **MinorityGameComplex.py** : Basic program for the second part. It basically integrates a second dynamic in the dynamics of the minority game of the first part. The dynamics is imitation through a social layer. Different kinds of integration are performed, it allows to adapt the timescale coupling between the two dynamics.
 
- - **.ipynb** and **.py** files to gather statistics and obtain results and figures
- - **some figures**
+ - **.ipynb** and **.py** files to gather statistics and obtain results and figures using the dynamics defined in the functions of the previous presented programs.
+ - **figures**, important results.
 
 
 
@@ -18,7 +19,8 @@ Project still in development.
 - [x] Basic naming game; volatility, phase transition, polarization, frozen agents and predictability.
 - [x] Basic naming game with change of variables; speeded up.
 - [x] Check the good convergence of the simulation in order to take good statistics.
-- [ ] Analytical calculations to check numerical ones.
-- [ ] Modeling market mechanism with minority game: Speculators and Producers, Noise traders, Quitters, multiple strategies, spies.
-- [ ] Creative part: Network topology exploration, spreading of ideas and attitudes.
+- [x] Analytical calculations to check numerical ones.
+- [x] Modeling market mechanism with minority game: Speculators and Producers, Noise traders, Quitters, multiple strategies, spies.
+- [x] Creative part: Imitation of successful strategies in an interwined dynamics scope, through a social layer defined as a complex graph with different kinds of topology (random, Small-World and Scale-free graph)
+- [ ] Final manuscript explaining in great detail all the theory and results.
 
